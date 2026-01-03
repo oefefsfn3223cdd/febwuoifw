@@ -1,0 +1,39 @@
+{
+    "assistant": {
+        "name": "Моно",
+        "wake_words": ["моно", "mono", "ассистент"],
+        "language": "ru-RU",
+        "greeting": true
+    },
+    "voice": {
+        "tts_engine": "pyttsx3",
+        "rate": 165,
+        "volume": 1.0
+    },
+    "stt": {
+        "model_path": "model",
+        "device_index": null,
+        "silence_timeout": 2
+    },
+    "paths": {
+        "modules": "modules",
+        "sounds": "sounds",
+        "screenshots": "screenshots"
+    },
+    "modules": {
+        "browser": "chrome",
+        "apps": {
+            "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "discord": "",
+            "steam": "C:\\Program Files (x86)\\Steam\\steam.exe",
+            "spotify": "",
+            "telegram": "C:\\Users\\несквик\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\AyuGram.lnk",
+            "vscode": "",
+            "notepad": "notepad.exe",
+            "calculator": "calc.exe"
+        }
+    },
+    "weather": {
+        "default_city": "Черновцы"
+    }
+}

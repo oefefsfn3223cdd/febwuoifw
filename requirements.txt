@@ -1,0 +1,14 @@
+vosk
+pyaudio
+pyttsx3
+PyQt5
+pyautogui
+screen-brightness-control
+pycaw
+comtypes
+fuzzywuzzy
+python-Levenshtein
+requests
+psutil
+pyperclip
+pygame
